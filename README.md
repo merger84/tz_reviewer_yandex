@@ -30,6 +30,6 @@ Docker Compose создаст Airflow и базу данных Postgres.
 Для связи с Postgres:
 - Host: localhost
 - Port: 5433
+- Database: postgres
 - Username: airflow
 - Password: airflow
-- Database: postgres
