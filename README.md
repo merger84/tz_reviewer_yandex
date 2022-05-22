@@ -17,6 +17,8 @@
 
 Чтобы начать работу с кодом, запустите Airflow с Docker Compose с помощью следующей команды:
 
-  docker-compose up 
-  
+```
+docker-compose up 
+```
+
 Доступ к веб-серверу Airflow по адресу http://localhost:8080
