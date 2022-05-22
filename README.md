@@ -21,6 +21,15 @@
 docker-compose up 
 ```
 
-Доступ к веб-серверу Airflow по адресу http://localhost:8080
+Docker Compose создаст Airflow и базу данных Postgres.
+
+Перейти в веб-сервер Airflow по адресу http://localhost:8080
 
 Запустить DAG: api_exchangerate
+
+Для связи с Postgres:
+- Host: localhost
+- Port: 5433
+- Username: airflow
+- Password: airflow
+- Database: postgres
