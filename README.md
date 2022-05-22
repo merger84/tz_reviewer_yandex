@@ -22,3 +22,5 @@ docker-compose up
 ```
 
 Доступ к веб-серверу Airflow по адресу http://localhost:8080
+
+Запустить DAG: api_exchangerateschedule
