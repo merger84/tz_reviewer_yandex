@@ -21,11 +21,7 @@
 docker-compose up 
 ```
 
-Docker Compose создаст Airflow и базу данных Postgres.
-
-Перейти в веб-сервер Airflow по адресу http://localhost:8080
-
-Запустить DAG: api_exchangerate
+Docker Compose создаст Airflow и базу данных Postgres. В Airflow добавиться connects c подключением к БД Postgres.
 
 Для связи с Postgres:
 - Host: localhost
@@ -33,3 +29,13 @@ Docker Compose создаст Airflow и базу данных Postgres.
 - Database: postgres
 - Username: airflow
 - Password: airflow
+
+Перейти в веб-сервер Airflow по адресу http://localhost:8080
+
+Запустите DAG: api_exchangerate
+
+DAG будет выполняться раз в 3 часа, начиная с полуночи.
+На первом шаге будут получены исторические данные из [exchangerate.host](https://exchangerate.host/) за указанный день. По умолчанию - это текущий день. 
+В случае отсутствия создастся таблица price_desc, с полями price_id - порядковый номер, сurrency_pair - валютная пара, price_date - дата, price - текущий курс.
+Данные подгружаются раз в сутки. Поэтому будем удалять данные за указанную дату и записывать новые данные.
+В случае отсутствия данных в указанный день будет добавлена строка с указанной датой и пустым значением курса.
