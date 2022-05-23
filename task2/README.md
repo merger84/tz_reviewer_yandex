@@ -21,7 +21,7 @@
 docker-compose up 
 ```
 
-Docker Compose создаст Airflow и базу данных Postgres. В Airflow добавиться connects c подключением к БД Postgres.
+Docker Compose создаст Airflow и базу данных PostgreSQL. В Airflow добавиться connections c подключением к БД PostgreSQL.
 
 Для связи с Postgres:
 - Host: localhost
@@ -37,7 +37,7 @@ Docker Compose создаст Airflow и базу данных Postgres. В Airf
 DAG будет выполняться раз в 3 часа, начиная с полуночи.
 На первом шаге будут получены исторические данные из [exchangerate.host](https://exchangerate.host/) за указанный день. По умолчанию - это текущий день.
 
-В случае отсутствия создастся таблица price_desc, с полями price_id - порядковый номер, сurrency_pair - валютная пара, price_date - дата, price - текущий курс.
+В случае отсутствия создастся таблица **price_desc**, с полями *сurrency_pair* - валютная пара, *price_date* - дата, *price* - текущий курс.
 
 Данные подгружаются раз в сутки. Поэтому будем удалять данные за указанную дату и записывать новые данные.
 
