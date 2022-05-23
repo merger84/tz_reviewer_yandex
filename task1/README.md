@@ -4,7 +4,7 @@
 
 Уже изучено — SQL (joins, window-function, select, CTE)
 
-![2022-01-13_20-18-28.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c8e24557-3d88-405c-a382-042b2acfbe33/2022-01-13_20-18-28.png)
+![image](https://user-images.githubusercontent.com/16752576/169751823-21dc4664-f93d-43f7-8548-56317d04bc2a.png)
 
 ---
 
@@ -22,7 +22,7 @@
 
 Уже изучено — SQL window function, limit, where
 
-![2022-01-14_00-52-08.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/63e7b2a1-ba6d-46f6-80a2-4a346ac05362/2022-01-14_00-52-08.png)
+![image](https://user-images.githubusercontent.com/16752576/169751880-78b19d84-7d14-4c13-b137-1ab19dd779bf.png)
 
 ---
 
@@ -41,7 +41,7 @@ select  row_number() over (partition by  ‘поля для группировк
 
 Уже изучено — SQL, DWH, git
 
-![2022-01-14_00-53-18.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7a390ad8-e773-4620-a2ed-45d4e1ffe3fb/2022-01-14_00-53-18.png)
+![image](https://user-images.githubusercontent.com/16752576/169751899-6bdeaa86-2909-45eb-9af1-0c4eb72f2792.png)
 
 ---
 
@@ -57,7 +57,7 @@ select  row_number() over (partition by  ‘поля для группировк
 
 Уже изучено — Python, работа с файлами, pandas, работа с бд
 
-![2022-01-14_00-53-38.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2af0c50f-8c24-4cc2-864a-f95a8d11506a/2022-01-14_00-53-38.png)
+![image](https://user-images.githubusercontent.com/16752576/169751937-80b7c5d1-eb6c-4b3f-ad03-35ba39dc842b.png)
 
 ---
 
@@ -73,7 +73,7 @@ select  row_number() over (partition by  ‘поля для группировк
 
 Уже изучено — Python
 
-![2022-01-14_00-53-54.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/17ad526d-a3a0-4997-ad1f-7105e19ae7fe/2022-01-14_00-53-54.png)
+![image](https://user-images.githubusercontent.com/16752576/169751957-e81ebc10-9e52-460e-a8ff-01d41f0d4b47.png)
 
 ---
 
@@ -88,7 +88,7 @@ select  row_number() over (partition by  ‘поля для группировк
 
 Уже изучено — ETL, ELT, DWH, Data Lake, Spark, Airflow
 
-![2022-01-14_01-27-02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1f4b6075-e02c-4562-8fcd-e12adf99cbb9/2022-01-14_01-27-02.png)
+![image](https://user-images.githubusercontent.com/16752576/169751974-9ed37140-b960-4a4d-a66d-d77a25e3a583.png)
 
 ---
 
@@ -105,7 +105,7 @@ NiFi позволяет парсить данные, выполнять по н�
 
 Уже изучено — Airflow, ETL, ELT, Spark, message queues, message broker
 
-![2022-01-14_01-27-32.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/baf300ff-b13b-41b2-a8f7-d1cf8243e8da/2022-01-14_01-27-32.png)
+![image](https://user-images.githubusercontent.com/16752576/169751998-c244c04d-aaec-4b79-93bf-34fd3f0cc751.png)
 
 ---
 
@@ -120,7 +120,7 @@ NiFi позволяет парсить данные, выполнять по н�
 
 Уже изучено — Python, DAG, SQL
 
-![2022-01-14_01-27-56.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8101b38a-7c0e-4a06-a92f-4186bebc20bb/2022-01-14_01-27-56.png)
+![image](https://user-images.githubusercontent.com/16752576/169752005-895303a4-2198-4055-8cc2-3ae279b58707.png)
 
 ---
 
@@ -134,6 +134,8 @@ NiFi позволяет парсить данные, выполнять по н�
 Спринт — "Python, data processing"
 
 Уже изучено — Python, pandas, numpy, SQL
+
+![image](https://user-images.githubusercontent.com/16752576/169752032-5b5823aa-df13-4f0b-af24-c82c6969bfac.png)
 
 ---
 
